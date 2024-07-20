@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: #3B3B58;
+
+  font-size:30px;
+  color:pink;
+  font-family:"DM Serif Display";
+}
+
+.dopamine-text {
+  font-family: 'Garamond', serif; /* Apply Garamond font */
+}
+
+.smile-icon {
+  font-size: 1.5rem; /* Adjust icon size as needed */
+  margin-left: 10px; /* Add space between Dopamine text and icon */
+}
+.nav-container{
+  background:#17153B;
+  color:white;
+  font-family:"Garamond",sans-serif;
+
+
+}
+.heading-icon{
+  justify-content: center;
+  text-align:center;
+  
+}
+.heading{
+  background:#17153B;
+  color:white;
+  font-family:monospace;
+  padding:5px;
+  margin:auto;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+i{
+  color:white;;
+}
+main{
+  min-height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+li{
+  list-style:none;
+}
+.container{
+  color:#17153B;
+  font-family:DM Serif Display ,sans-serif;
+  font-weight:bold;
+font-size: 17px;
+background:rgb(176, 207, 148);
+padding:5px;
+
+}
+.timer {
+  font-size: 3rem;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+  width: 200px;
+  margin: 20px auto;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.timer.active {
+  background-color: #6db65b; /* Change color when timer is active */
+  animation: pulse 1s infinite; /* Example animation */
+}
+
+
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+footer{
+  padding:0;
+}
+.about-us{
+  padding:0;
+}
